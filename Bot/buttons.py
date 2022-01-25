@@ -50,7 +50,8 @@ def delete():
 def repo():
 	markup = InlineKeyboardMarkup()
 
-	btn = InlineKeyboardButton(" Github Repo ", url='https://github.com/coder2077/iTranslator-bot')
+	btn = InlineKeyboardButton(" Channel ", url='https://t.me/jetbots')
+	
 	btn1 = InlineKeyboardButton(" ❌ ", callback_data='delete')
 	markup.add(btn)
 	markup.add(btn1)
@@ -59,5 +60,5 @@ def repo():
 
 
 '''
-©️ 2021. Contact(Telegram): @coder2077
+©️ 2021. Contact(Telegram): @jettastic
 '''
